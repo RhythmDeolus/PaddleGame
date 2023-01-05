@@ -1,0 +1,13 @@
+:root{
+	--canvasWidth:500px;
+	--canvasHeight:500px;
+}
+body{
+	background-color:rgb(70, 137, 244);
+}
+#canvas{
+	position:relative;
+	background-color:lightyellow;
+	top:calc(50vh - calc(var(--canvasHeight)/2));
+	left:calc(50vw - calc(var(--canvasWidth)/2));
+}
